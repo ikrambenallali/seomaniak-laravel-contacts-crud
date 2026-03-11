@@ -88,7 +88,6 @@
             </a>
         </div>
 
-        {{ Tableau }}
         <div class="animate-fade-up rounded-2xl overflow-hidden border border-rose-light
                     shadow-[0_16px_48px_rgba(180,100,120,.10)]"
              style="background: rgba(255,255,255,.82); backdrop-filter: blur(12px);">
