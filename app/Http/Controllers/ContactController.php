@@ -46,4 +46,10 @@ class ContactController extends Controller
         $contact->delete();
         return redirect()->route('contacts.index');
     }
+
+    // affichage d'un contact
+    public function show(Contact $contact)
+    {
+        return view('contacts.show', compact('contact'));
+    }
 }
